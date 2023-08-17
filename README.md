@@ -10,12 +10,16 @@ Our method was able to accurately detect the entry point, catheter tip and radio
 Our results indicate a 3D euclidean distance of 0.235 ± 0.085 (mm) between prediction and ground truth for the entry followed by 0.261 ± 0.138 (mm), 0.285 ± 0.143 (mm) and 0.424 ± 0.361 (mm) for marker, tip, and bend respectively. 
 We believe that our method has the potential to significantly improve the accuracy and efficiency of catheter tracking in real-world applications. 
 
-An overview of schematic view and the Yolo bounding box tracking has been provided below:
+The below image provides an overview of the schematic view of our methodology:
 
-<img width="252" alt="image" src="https://github.com/mosadeghlabwcm/2023-Publication_Yolo-Detection-3D-Pose-Tracking-/assets/44305444/f3f992c5-4021-46d6-82b7-6df0589185fb">
-
-
-
+<img width="280" alt="image" src="https://github.com/mosadeghlabwcm/2023-Publication_Yolo-Detection-3D-Pose-Tracking-/assets/44305444/f3f992c5-4021-46d6-82b7-6df0589185fb">
 
 For using the code provided in this repository we have provided access to two datasets, one containing 1429 samples, a combinatory dataset and the other a 900 paired dataset. 
-The second dataset has been generated for 3D coordinate detection and contains the images to two planes: AP and LAO90, setting a 90 degree angle with each other.
+The second dataset has been generated for 3D coordinate detection and contains the images to two planes: AP and LAO90, setting a 90 degree angle with each other. Our Yolo based algorithm for catheter tracking resulted in accurate results showcased as below:
+
+
+<img width="400" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzAxYnd0Znp5b3BmeHYwZDFrcWVncDVjeDdscnJvcXAzcGJhMmpwNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jW4S0LgPpBaOL1WrQQ/giphy-downsized-large.gif"> <img width="400" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzR4NThzZGhhb3FzdDBnZDVueXdhcDByenhpdnBxYWt2ZWU3MWlyZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ghrhp8D2nJSVAGaaia/giphy-downsized-large.gif">
+
+
+
+
