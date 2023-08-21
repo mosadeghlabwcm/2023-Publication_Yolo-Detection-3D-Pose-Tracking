@@ -18,7 +18,7 @@ For using the code provided in this repository we have provided access to two da
 The second dataset has been generated for 3D coordinate detection and contains the images to two planes: AP and LAO90, setting a 90 degree angle with each other. Our Yolo based algorithm for catheter tracking resulted in accurate results showcased as below:
 
 
-<img width="400" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDl4cHY1cnVqOXVjMWV3NTVkZjlsMXlyM2IwNjk0Mzdxb3p6c2xvMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NSdIkBQ1mJ9kXMSS61/giphy-downsized-large.gif"> <img width="400" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzFocnJqMmN4ZDVsazQ2c3NwZmVzYnlpbmd5cmN2ODB0c3YzenQxcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gsi8ahFwPICtBSdtRb/giphy-downsized-large.gif">
+<img width="400" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW1oNW9oem1hcjA1ZmtpMmlsOGw2bXV5YXQ4bXU1eGVpcDQyMjIyeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/g9hcovqIfRbkkfov3w/giphy-downsized-large.gif"> <img width="400" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGIxN25iaTBkNmRsNXY3ZXB3bWdyeHVuZHhkdTdmdnl0cjBqNnEzZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dBv74npfenqUo4NyDR/giphy.gif">
 
 
 
