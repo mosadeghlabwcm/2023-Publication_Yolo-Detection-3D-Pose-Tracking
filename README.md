@@ -12,7 +12,7 @@ We believe that our method has the potential to significantly improve the accura
 
 The below image provides an overview of the schematic view of our methodology:
 
-<img width="400" alt="image" src="https://github.com/mosadeghlabwcm/2023-Publication_Yolo-Detection-3D-Pose-Tracking-/assets/44305444/f3f992c5-4021-46d6-82b7-6df0589185fb">
+<img width="400" alt="image" src="https://github.com/mosadeghlabwcm/2023-Publication_Yolo-Detection-3D-Pose-Tracking-/assets/44305444/f3f992c5-4021-46d6-82b7-6df0589185fb" class="center">
 
 For using the code provided in this repository we have provided access to two datasets, one containing 1429 samples, a combinatory dataset and the other a 900 paired dataset. 
 The second dataset has been generated for 3D coordinate detection and contains the images to two planes: AP and LAO90, setting a 90 degree angle with each other. Our Yolo based algorithm for catheter tracking resulted in accurate results showcased as below:
