@@ -1,6 +1,6 @@
-# 2023-Publication_Yolo-Detection-3D-Pose-Tracking-
-In this section we introduce a Yolo Detection algorithm for 3D Pose Tracking of Cardiac Catheters.
-With the increasing rate of minimally invasive surgeries and the growing prevalence of cardiovascular diseases have led to a demand for higher quality guidance systems for catheter tracking. 
+# 2023-Publication_Yolo-Detection-3D-Pose-Tracking
+In this section, we introduce a Yolo Detection algorithm for 3D Pose Tracking of Cardiac Catheters.
+The increasing rate of minimally invasive surgeries and the growing prevalence of cardiovascular diseases have led to a demand for higher-quality guidance systems for catheter tracking. 
 Traditional methods for catheter tracking, such as one-point detection and masking, have been limited in their ability to provide accurate pose information. 
 In this work, we propose a novel deep learning-based method for catheter tracking and pose detection. 
 Our method uses a Yolov5 bounding box neural network with post-processing to perform landmark detection in four regions of the catheter: the tip, radio-opaque marker, bend, and entry point. 
@@ -21,6 +21,23 @@ The second dataset has been generated for 3D coordinate detection and contains t
 
 <img width="400" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW1oNW9oem1hcjA1ZmtpMmlsOGw2bXV5YXQ4bXU1eGVpcDQyMjIyeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/g9hcovqIfRbkkfov3w/giphy-downsized-large.gif"> <img width="400" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGIxN25iaTBkNmRsNXY3ZXB3bWdyeHVuZHhkdTdmdnl0cjBqNnEzZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dBv74npfenqUo4NyDR/giphy.gif">
 
+<br>
 
+<b> Requirements </b>
 
+This code was tested on:
+
+    python 3.8.10
+    numpy 1.21.6
+    pandas 1.3.5
+
+<b> Data </b>
+
+Two folders have been provided in the code:
+
+* The combinatory dataset, located in "combinedExperiment", includes implementation of the yolo algorithm with post-processing on paired LAO90 and AP samples combined with a dataset consisting of 529 fluoroscopic samples, with a custom-made         3D printed heart and a metal spray-painted spine to provide visibility under x-ray, gathered during a mock procedure in the catheterization lab. 
+
+* The second dataset included in the "pairedExperiment" folder, includes implementation of the yolo algorithm with post-processing, conducted on 900 fluoroscopic images, without the 3D printed heart and metal spray painted spine, which has been            produced to enable assessment of the 3D coordinate generation of the catheter and to generalize the dataset, since these features may or may not be present in clinical images.
+
+Note: Please adjust all paths prior to use and dedicate attention to the comments and notes provided in the code. 
 
