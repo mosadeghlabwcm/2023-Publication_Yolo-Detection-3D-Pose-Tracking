@@ -1,0 +1,15 @@
+names:
+- bend
+- entry
+- marker
+- tip
+nc: 4
+roboflow:
+  license: Public Domain
+  project: cath2
+  url: https://universe.roboflow.com/catheterproject/cath2/dataset/3
+  version: 3
+  workspace: catheterproject
+test: /content/yolov5/data/Cath2-3/test/images
+train: /content/yolov5/data/Cath2-3/train/images
+val: /content/yolov5/data/Cath2-3/valid/images
