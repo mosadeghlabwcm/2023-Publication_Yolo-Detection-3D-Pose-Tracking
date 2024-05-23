@@ -1,5 +1,5 @@
 # 2023-Publication_Yolo-Detection-3D-Pose-Tracking
-This repository contains the algorithms, methods and python code for Yolo Detection for 3D Pose Tracking of Cardiac Catheters.
+This repository contains the datasets and python code for Yolo Detection for 3D Pose Tracking of Cardiac Catheters.
 
 With a rise in the rate of minimally invasive surgeries and the increasing prevalence of cardiovascular diseases, there has been a demand for enhanced guidance systems for catheter tracking. Traditional methods have struggled to provide precise pose information whilst deep learning techniques have provided an end to end solution. We propose Yolov5 bounding box neural network with post-processing for catheter detection and tracking based on four regions of the catheter: the tip, radio-opaque marker, bend, and entry point. 
 Two datasets, containing fluoroscopic images in a paired and unpaired mode have been used to asses accuracy and robustness. 
