@@ -4,10 +4,13 @@ This repository contains the datasets and python code for Yolo Detection for 3D 
 With a rise in the rate of minimally invasive surgeries and the increasing prevalence of cardiovascular diseases, there has been a demand for enhanced guidance systems for catheter tracking. Traditional methods have struggled to provide precise pose information whilst deep learning techniques have provided an end to end solution. We propose Yolov5 bounding box neural network with post-processing for catheter detection and tracking based on four regions of the catheter: the tip, radio-opaque marker, bend, and entry point. 
 Two datasets, containing fluoroscopic images in a paired and unpaired mode have been used to asses accuracy and robustness. 
 Our method was able to accurately detect the bounding boxes with a 3D euclidean distance between prediction and ground truth as below:
-Entry: 0.235 ± 0.085 (mm)
-Marker: 0.261 ± 0.138 (mm)
-Tip: 0.285 ± 0.143 (mm)
-Bend: 0.424 ± 0.361 (mm) 
+- Entry: 0.235 ± 0.085 (mm)
+
+- Marker: 0.261 ± 0.138 (mm)
+
+- Tip: 0.285 ± 0.143 (mm)
+
+- Bend: 0.424 ± 0.361 (mm) 
 
 The below image provides an overview of the schematic view of our methodology:
 
